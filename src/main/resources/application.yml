@@ -1,0 +1,13 @@
+# 配置相关信息
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springcloud
+    username: root
+    password: 123456
+
+# MP相关配置
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tb_    #设置所有表的通用前缀名称为t_
