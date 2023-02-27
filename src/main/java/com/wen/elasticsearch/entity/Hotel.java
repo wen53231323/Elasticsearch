@@ -7,12 +7,6 @@ import lombok.experimental.Accessors;
 
 import java.io.Serializable;
 
-/**
- * (Hotel)表实体类
- *
- * @author makejava
- * @since 2023-02-23 18:04:08
- */
 // jse提供的注解，屏蔽无关紧要的警告。
 @SuppressWarnings("serial")
 // Lombok提供的注解，代表get、set、toString、equals、hashCode等操作
