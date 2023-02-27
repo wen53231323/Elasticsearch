@@ -1,7 +1,7 @@
 package com.wen.elasticsearch.constants;
 
 public class HotelIndexConstants {
-    // ES命令
+
     public static final String MAPPING_TEMPLATE = "{ \n" +
             "  \"mappings\": {\n" +
             "    \"properties\":{\n" +
